@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry
+ * main - Prints alphabet in lowecase
  *
  * return: Always 0
  */
@@ -9,11 +9,11 @@ int main(void)
 {
 	char a;
 
-	a = 'c';
-	while
-		(a <= 'b') {
+	for (a = 'c'; a <= 'z'; a++)
+
+		{
 			putchar(a);
 		}
 	putchar('\n');
 	return (0);
-}	
+}
