@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /*
  * main - Entry
  *
@@ -8,7 +8,7 @@
  * Return: Always 0 (success)
  */
 
-int main(void)
+int main.h(void)
 {
 	_putchar('_');
 	_putchar('p');
