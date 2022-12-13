@@ -1,6 +1,8 @@
 #ifndef HOLBERTON_H_INCLUDED
 #define	HOLBERTON_H_INCLUDED
-
+/*
+ * main - lists prototypes
+ */
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
