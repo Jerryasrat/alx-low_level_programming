@@ -9,7 +9,6 @@ void rev_string(char *s)
 {
 		char temp;
 	int i, length1, length2;
-	"jerry"->"yrrej"
 
 	length1 = 0;
 	length2 = 0;
