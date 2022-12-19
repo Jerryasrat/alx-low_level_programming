@@ -5,7 +5,7 @@
  *@s: reversed string
  *
  */
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	int n;
 
