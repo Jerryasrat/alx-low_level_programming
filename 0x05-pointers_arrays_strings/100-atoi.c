@@ -30,7 +30,8 @@ int _atoi(char *s)
 			n = n * 10 - (s[i] - '0');
 			i++;
 		}
+	}
 		signo *= -1;
 		return (n * signo);
-	}
-}
+}	
+
