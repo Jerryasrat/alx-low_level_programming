@@ -7,6 +7,7 @@
  *
  * Return: a string
  */
+
 char *_stract(char *dest, char *src)
 {
 	int len = 0, i;
