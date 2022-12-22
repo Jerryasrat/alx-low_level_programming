@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _stract -> is a function strcat
- * @dest: first parameter
- * @src: second parameter
- * @char: char
+ * _strcat -> is a function strcat
+ * @dest: first param
+ * @src: second param
+ * 
  * Return: a string
  */
-	char *_stract(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int len = 0, i;
 
