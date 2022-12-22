@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat -> is a function
+ * _stract -> is a function strcat
  * @dest: first parameter
  * @src: second parameter
  *
@@ -21,3 +21,4 @@ char *_stract(char *dest, char *src)
 	}
 	dest[len] = '\0';
 	return (dest);
+}
