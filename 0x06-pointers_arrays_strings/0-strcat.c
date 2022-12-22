@@ -4,11 +4,10 @@
  * _stract -> is a function strcat
  * @dest: first parameter
  * @src: second parameter
- *
+ * @char: char
  * Return: a string
  */
-
-char *_stract(char *dest, char *src)
+	char *_stract(char *dest, char *src)
 {
 	int len = 0, i;
 
