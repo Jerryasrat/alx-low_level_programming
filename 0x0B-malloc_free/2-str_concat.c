@@ -29,13 +29,12 @@ int _strlen(char *s)
 char *str_concat(char *s1, char *s2)
 {
 	char *dst;
-	Null = '\0';
 	unsigned int i, j, size;
 
-	if (s1 == Null)
+	if (s1 == NULL)
 		s1 = " ";
 
-	if (s2 == Null)
+	if (s2 == NULL)
 		s2 = " ";
 
 	size = (_strlen(s1) + _strlen(s2) + 1);
@@ -43,13 +42,13 @@ char *str_concat(char *s1, char *s2)
 
 	if (dst == 0)
 	{
-		return (Null);
+		return (NULL);
 	}
 
-	for (i = 0; *(s1 + i) != Null; i++)
+	for (i = 0; *(s1 + i) != NULL; i++)
 		*(dst + i) = *(s1 + i);
 
-	for (j = 0; *(s2 + j) != Null; j++)
+	for (j = 0; *(s2 + j) != NULL; j++)
 	{
 		*(dst + i) = *(s2 + j);
 		i++;
