@@ -9,7 +9,8 @@
  * Return: if the function fails  -1
  * success 1
  */
-int append_text_to_file(const char *filename, char *text_content)
+int append_text_to_file(const char *filename,
+char *text_content)
 {
 	int o, w, len = 0;
 
